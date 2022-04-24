@@ -52,11 +52,11 @@ const Home = () => {
                 <button className='btn btn-danger' onClick={subscribers}>{subscribe}</button>
                 <h2>Recent Subscribers</h2>
                 <div className='subs'>
-                    <img src='https://placeimg.com/640/480/any' />
+                    <img src='https://placeimg.com/640/480/any' alt='subscriber pic'/>
                     James
                 </div>
                 <div className='subs'>
-                    <img src='https://placeimg.com/640/480/any' />
+                    <img src='https://placeimg.com/640/480/any' alt='subscriber pic'/>
                     James
                 </div>
             </div>

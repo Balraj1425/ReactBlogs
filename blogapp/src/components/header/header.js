@@ -4,16 +4,14 @@ import './header.css'
 import { Link } from "react-router-dom";
 
 class Header extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  
   render() {
     return (
       <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <Link class="navbar-brand" to="/">
-              <img className="logo" src={Logo}/>
+              <img className="logo" src={Logo} alt='my logo'/>
             </Link>
             <button
               class="navbar-toggler"

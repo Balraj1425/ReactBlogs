@@ -10,4 +10,8 @@ img {
     background-color: grey;
     padding: 40px;
     margin: 20px;
+    text-align: justify;
+}
+.bg-cl {
+    text-align: center;
 }

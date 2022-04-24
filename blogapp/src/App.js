@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
@@ -14,14 +13,16 @@ function App() {
     <div>
       <Router>
         <Header></Header>
-        <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
-          <Route path='/aboutus' element={<Aboutus></Aboutus>}></Route>
-          <Route path='/contactus' element={<Contactus></Contactus>}></Route>
-          <Route path='/blogs' element={<Blogs></Blogs>}></Route>
-        </Routes>
-        <Footer></Footer>
+        <div className='testt'>
+          <Routes>
+            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/aboutus' element={<Aboutus></Aboutus>}></Route>
+            <Route path='/contactus' element={<Contactus></Contactus>}></Route>
+            <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+          </Routes>
+        </div>
       </Router>
+      <Footer></Footer>
     </div>
   );
 }
