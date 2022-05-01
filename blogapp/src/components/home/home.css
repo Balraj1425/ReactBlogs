@@ -1,4 +1,6 @@
-
+body{
+    height: 100vh;
+}
 .sidebar-wrapper{
     width: 100%;
     background: #055384;
